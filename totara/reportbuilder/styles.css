@@ -1,0 +1,44 @@
+
+/* Spacing for the multicheck report builder filter */
+div.multicheck-items fieldset.felement span {
+    display: block;
+    float: left;
+    width: 30%;
+}
+
+/* show/hide button alignment */
+.dir-ltr .rb-showhide.boxalignright {
+    text-align: right;
+}
+.dir-rtl .rb-showhide.boxalignright {
+    text-align: left;
+}
+
+.dir-ltr .rb-search {
+    margin-left: auto;
+    margin-right: 0;
+}
+.dir-rtl .rb-search {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.rb-search-menu {
+    vertical-align: middle !important;
+}
+
+.rb-genbutton {
+    float: right;
+}
+
+.rb-genicon {
+    cursor: hand; cursor: pointer;
+}
+
+.rb-hidden {
+    display: none;
+}
+
+.rb-inline {
+    display: inline-block;
+}
