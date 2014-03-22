@@ -4,20 +4,20 @@ unset($CFG);
 global $CFG;
 $CFG = new stdClass();
 
-$CFG->dbtype    = 'pgsql';
+$CFG->dbtype    = 'mysqli';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'totara';
-$CFG->dbuser    = 'totarauser';
-$CFG->dbpass    = 'totarapwd';
+$CFG->dbuser    = 'root';
+$CFG->dbpass    = '';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = 'http://localhost/totaralms-258';
-$CFG->dataroot  = '/Applications/XAMPP/sitedata/totaralmsdata';
+$CFG->wwwroot   = 'http://192.168.0.84/totaralms';
+$CFG->dataroot  = '/opt/lampp/sitedata/totaralmsdata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
